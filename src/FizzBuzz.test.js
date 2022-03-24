@@ -5,9 +5,10 @@ describe("Fizz.Buzz", () => {
         expect(res).toEqual("1");
     });    });
 
-describe("Fizz.Buzz", () => {
-    it("Devolver un '2'cuando ingrese 2", () =>{
-        var res = generar(2);
-        expect(res).toEqual("2");
+    describe("Fizz.Buzz", () => {
+        it("Devolver un '2'cuando ingrese 2", () =>{
+            var res = generar(2);
+            expect(res).toEqual("2");
+        });
     });
-});
+ 
