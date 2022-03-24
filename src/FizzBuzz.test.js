@@ -25,3 +25,10 @@ describe("Fizz.Buzz", () => {
             expect(res).toEqual("Buzz");
         });
     });
+
+    describe("Fizz.Buzz", () => {
+        it("Devolver un 'Fizz'cuando se ingrese un multiplo de 3", () =>{
+            var res = generar(6);
+            expect(res).toEqual("Fizz");
+        });
+    });
