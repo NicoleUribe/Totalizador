@@ -18,3 +18,10 @@ describe("Fizz.Buzz", () => {
             expect(res).toEqual("Fizz");
         });
     });
+
+    describe("Fizz.Buzz", () => {
+        it("Devolver un 'Buzz'cuando ingrese 5", () =>{
+            var res = generar(5);
+            expect(res).toEqual("Buzz");
+        });
+    });
