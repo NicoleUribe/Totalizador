@@ -32,3 +32,17 @@ describe("Fizz.Buzz", () => {
             expect(res).toEqual("Fizz");
         });
     });
+
+    describe("Fizz.Buzz", () => {
+        it("Devolver un 'Buzz'cuando se ingrese un multiplo de 5", () =>{
+            var res = generar(10);
+            expect(res).toEqual("Buzz");
+        });
+    });
+
+    describe("Fizz.Buzz", () => {
+        it("Devolver un 'FizzBuzz'cuando se ingrese un multiplo de 15", () =>{
+            var res = generar(15);
+            expect(res).toEqual("FizzBuzz");
+        });
+    });
