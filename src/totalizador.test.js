@@ -17,5 +17,3 @@ describe("valorDescuento", () => {
         expect(des).toEqual(45);
     });
  });
-
-        
