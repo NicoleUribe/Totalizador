@@ -16,6 +16,11 @@ describe("Fizz.Buzz", () => {
         expect(res).toEqual(2);
     });
 
-    
+    it("Devolver 6 cuando la cadena sea ¨4,2¨", () =>{
+        //Act
+        const res=calcu.Sumar("4,2");
+        //Assert 
+        expect(res).toEqual(6);
+    });
      
 });
