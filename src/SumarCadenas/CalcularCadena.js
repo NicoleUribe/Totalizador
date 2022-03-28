@@ -1,6 +1,10 @@
+import { parseInt } from "lodash";
+
 class Calcular {
     Sumar(cadena){
-     return 0;  
+        if(cadena=="")
+        return 0;  
+        return parseInt(cadena);
     }
     
 }
