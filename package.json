@@ -4,8 +4,8 @@
   "description": "npm install",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "parcel FizzBuzz.html",
+    "build": "parcel build FizzBuzz.html",
     "test": "jest --watch",
     "test-once": "jest"
   },
