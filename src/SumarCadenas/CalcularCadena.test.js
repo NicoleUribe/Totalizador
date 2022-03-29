@@ -30,4 +30,10 @@ describe("Fizz.Buzz", () => {
         expect(res).toEqual(11);
     });
      
+    it("Devolver 11 cuando la cadena sea ¨4,2,5¨", () =>{
+        //Act
+        const res=calcu.Sumar("4-2,5");
+        //Assert 
+        expect(res).toEqual(11);
+    });
 });
